@@ -60,27 +60,27 @@ a {
 }
 #header .openbtn span {
   display: inline-block;
-  transition: all 0.4s; /*アニメーションの設定*/
+  transition: all 0.5s; /*アニメーションの設定*/
   position: absolute;
-  left: 13px;
+  left: 10px;
   height: 2px;
   background-color: #666;
 }
 #header .openbtn span:nth-of-type(1) {
-  top: 22px;
+  top: 24px;
   width: 50%;
 }
 #header .openbtn span:nth-of-type(2) {
-  top: 29px;
+  top: 31px;
   width: 50%;
 }
-#header .openbtn .active span:nth-of-type(1) {
+#header .active span:nth-of-type(1) {
   top: 20px;
   left: 16px;
   transform: translateY(6px) rotate(-45deg);
   width: 35%;
 }
-#header .openbtn .active span:nth-of-type(2) {
+#header .active span:nth-of-type(2) {
   top: 32px;
   left: 16px;
   transform: translateY(-6px) rotate(45deg);
