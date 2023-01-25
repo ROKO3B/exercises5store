@@ -58,7 +58,8 @@ a:hover {
   right: 0;
   z-index: 10;
 }
-#header .openbtn {
+
+.openbtn {
   position: relative;
   width: 30px;
   height: 30px;
@@ -66,7 +67,7 @@ a:hover {
   transition: all 0.5s;
   z-index: 20;
 }
-#header .openbtn span {
+.openbtn span {
   display: block;
   transition: all 0.5s;
   position: absolute;
@@ -75,10 +76,10 @@ a:hover {
   background-color: #333;
   border-radius: 4px;
 }
-#header .openbtn span:nth-child(1) {
+.openbtn span:nth-child(1) {
   top: 10px;
 }
-#header .openbtn span:nth-child(2) {
+.openbtn span:nth-child(2) {
   bottom: 10px;
 }
 

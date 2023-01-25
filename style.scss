@@ -59,32 +59,32 @@ a:hover {
   left: 0;
   right: 0;
   z-index: 10;
+}
 
-    .openbtn {
-      position: relative;
-	    width: 30px;
-      height:30px;
-	    cursor: pointer;
-      transition: all 0.5s;
-      z-index: 20;
+.openbtn {
+  position: relative;
+  width: 30px;
+  height:30px;
+  cursor: pointer;
+  transition: all 0.5s;
+  z-index: 20;
 
-      span {
-        display: block;
-        transition: all 0.5s;
-        position: absolute;
-        width: 30px;
-        height: 2px;
-	      background-color: #333;
-        border-radius: 4px;
-      }
-    
-      span:nth-child(1) {
-        top:10px;
-      }
-      span:nth-child(2) {
-        bottom: 10px;
-      }  
-    }
+  span {
+    display: block;
+    transition: all 0.5s;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    border-radius: 4px;
+  }
+
+  span:nth-child(1) {
+    top:10px;
+  }
+  span:nth-child(2) {
+    bottom: 10px;
+  }  
 }
 
 .open #navi {
