@@ -51,23 +51,23 @@ a:hover {
   height: 80px;
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   left: 0;
   right: 0;
   z-index: 10;
 }
-
-.openbtn {
+#header .openbtn {
   position: relative;
   width: 30px;
   height: 30px;
   cursor: pointer;
   transition: all 0.5s;
   z-index: 20;
+  color: #333;
 }
-.openbtn span {
+#header .openbtn span {
   display: block;
   transition: all 0.5s;
   position: absolute;
@@ -76,10 +76,10 @@ a:hover {
   background-color: #333;
   border-radius: 4px;
 }
-.openbtn span:nth-child(1) {
+#header .openbtn span:nth-child(1) {
   top: 10px;
 }
-.openbtn span:nth-child(2) {
+#header .openbtn span:nth-child(2) {
   bottom: 10px;
 }
 
@@ -89,7 +89,7 @@ a:hover {
 }
 
 .open .openbtn span {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 .open .openbtn span:nth-child(1) {
   transform: translateY(4px) rotate(-45deg);
