@@ -83,17 +83,8 @@ a:hover {
       }
       span:nth-child(2) {
         bottom: 10px;
-      }
-    
-    &:nth-child(1) {
-      -webkit-transform: translateY(4px) rotate(-45deg);
-      transform: translateY(4px) rotate(-45deg);
+      }  
     }
-    &:nth-child(2) {
-      -webkit-transform: translateY(-4px) rotate(45deg);
-      transform: translateY(-4px) rotate(45deg);
-    }
-  }
 }
 
 .open #navi {
@@ -101,9 +92,20 @@ a:hover {
   opacity: 1;
 }
 
-.open .openbtn {
-  span {
-    background-color: #fff;
+.open {
+  .openbtn {
+    span {
+      background-color: #fff;
+    
+      &:nth-child(1) {
+        -webkit-transform: translateY(4px) rotate(-45deg);
+        transform: translateY(4px) rotate(-45deg);
+      }
+      &:nth-child(2) {
+        -webkit-transform: translateY(-4px) rotate(45deg);
+        transform: translateY(-4px) rotate(45deg);
+      }
+    }
   }
 }
 

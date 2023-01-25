@@ -81,12 +81,6 @@ a:hover {
 #header .openbtn span:nth-child(2) {
   bottom: 10px;
 }
-#header .openbtn:nth-child(1) {
-  transform: translateY(4px) rotate(-45deg);
-}
-#header .openbtn:nth-child(2) {
-  transform: translateY(-4px) rotate(45deg);
-}
 
 .open #navi {
   left: 0;
@@ -95,6 +89,12 @@ a:hover {
 
 .open .openbtn span {
   background-color: #fff;
+}
+.open .openbtn span:nth-child(1) {
+  transform: translateY(4px) rotate(-45deg);
+}
+.open .openbtn span:nth-child(2) {
+  transform: translateY(-4px) rotate(45deg);
 }
 
 #navi {
