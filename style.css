@@ -36,7 +36,7 @@ li {
 
 .content {
   padding-top: 120px;
-  padding-bottom: 160px;
+  padding-bottom: 50px;
 }
 
 .site-title a {
@@ -160,6 +160,29 @@ main {
   display: block;
   text-align: center;
   line-height: normal;
+}
+
+.content {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 12px;
+}
+.content img {
+  width: 227px;
+  height: 227px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination li {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*------------------footer-------------*/

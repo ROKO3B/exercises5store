@@ -32,7 +32,7 @@ li {
 }
 .content {
   padding-top: 120px;
-  padding-bottom: 160px;
+  padding-bottom: 50px;
 }
 .site-title a {
   width: 180px;
@@ -178,6 +178,29 @@ main {
   line-height: normal;
 }
 
+.content {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 12px;
+
+  img {
+    width: 227px;
+    height: 227px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+   
+    li {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
 /*------------------footer-------------*/
 #footer {
   display: flex;
