@@ -3,49 +3,43 @@
 html {
   font-size: 100%;
 }
-
 body {
   color: #333;
   font-size: 14px;
   min-height: 100vh;
   position: relative;
 }
-
-img {
-  max-width: 100%;
-}
-
-li {
-  list-style: none;
-}
-
 a {
-  color:#333;
+  color: #333;
   text-decoration: none;
   transition: all 0.5s;
 }
-
 a:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
-
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
 .wrapper {
   width: 100%;
   max-width: 1360px;
   margin: 0 auto;
   padding: 0 40px;
-}
 
+}
 .content {
   padding-top: 120px;
   padding-bottom: 160px;
 }
-
-.site-title a{
+.site-title a {
   width: 180px;
   line-height: 1px;
   display: block;
 }
+
 
 /*------------------header------------------*/
 #header {
@@ -58,25 +52,24 @@ a:hover {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 50;
 
   .openbtn {
-    position: relative;
     width: 30px;
-    height:30px;
-    cursor: pointer;
+    height: 30px;
+    position: relative;
     transition: all 0.5s;
+    cursor: pointer;
     z-index: 20;
-    color: #333;
     
     span {
       display: block;
-      transition: all 0.5s;
       position: absolute;
       width: 30px;
       height: 2px;
       background-color: #333;
       border-radius: 4px;
+      transition: all 0.5s;
     }
   
     span:nth-child(1) {
@@ -85,6 +78,28 @@ a:hover {
     span:nth-child(2) {
       bottom: 10px;
     }  
+  }
+
+}
+
+#navi {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  color: #fff;
+  padding: 36px 50px;
+  transition: all 0.5s;
+  z-index: 20;
+  opacity: 0;
+}
+
+#navi {
+  a {
+    color: #fff;
+  }
+  li {
+    margin-bottom: 14px;
   }
 }
 
@@ -98,7 +113,7 @@ a:hover {
 .open {
   .openbtn {
     span {
-      background-color: #fff;
+      background-color: #fff !important;
     
       &:nth-child(1) {
         -webkit-transform: translateY(4px) rotate(-45deg);
@@ -112,27 +127,6 @@ a:hover {
   }
 }
 
-
-#navi {
-  position: fixed;
-  top: 0;
-  left: -300px;
-  width: 300px;
-  color: #fff;
-  transition: all 0.5s;
-  padding: 36px 50px;
-  z-index: 20;
-  opacity: 0;
-}
-
-#navi {
-  a {
-    color: #fff;
-  }
-  li {
-    margin-bottom: 14px;
-  }
-}
 
 .mask {
   display: noen;

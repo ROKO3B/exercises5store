@@ -9,14 +9,6 @@ body {
   position: relative;
 }
 
-img {
-  max-width: 100%;
-}
-
-li {
-  list-style: none;
-}
-
 a {
   color: #333;
   text-decoration: none;
@@ -25,6 +17,14 @@ a {
 
 a:hover {
   opacity: 0.7;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
 }
 
 .wrapper {
@@ -56,31 +56,49 @@ a:hover {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 50;
 }
 #header .openbtn {
-  position: relative;
   width: 30px;
   height: 30px;
-  cursor: pointer;
+  position: relative;
   transition: all 0.5s;
+  cursor: pointer;
   z-index: 20;
-  color: #333;
 }
 #header .openbtn span {
   display: block;
-  transition: all 0.5s;
   position: absolute;
   width: 30px;
   height: 2px;
   background-color: #333;
   border-radius: 4px;
+  transition: all 0.5s;
 }
 #header .openbtn span:nth-child(1) {
   top: 10px;
 }
 #header .openbtn span:nth-child(2) {
   bottom: 10px;
+}
+
+#navi {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  color: #fff;
+  padding: 36px 50px;
+  transition: all 0.5s;
+  z-index: 20;
+  opacity: 0;
+}
+
+#navi a {
+  color: #fff;
+}
+#navi li {
+  margin-bottom: 14px;
 }
 
 .open #navi {
@@ -96,25 +114,6 @@ a:hover {
 }
 .open .openbtn span:nth-child(2) {
   transform: translateY(-4px) rotate(45deg);
-}
-
-#navi {
-  position: fixed;
-  top: 0;
-  left: -300px;
-  width: 300px;
-  color: #fff;
-  transition: all 0.5s;
-  padding: 36px 50px;
-  z-index: 20;
-  opacity: 0;
-}
-
-#navi a {
-  color: #fff;
-}
-#navi li {
-  margin-bottom: 14px;
 }
 
 .mask {
