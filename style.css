@@ -147,6 +147,10 @@ main {
   font-size: 12px;
 }
 #top img {
+  width: 227px;
+  height: 227px;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: 10px;
 }
 
@@ -155,6 +159,7 @@ main {
   padding-top: 50px;
   display: block;
   text-align: center;
+  line-height: normal;
 }
 
 /*------------------footer-------------*/

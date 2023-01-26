@@ -163,6 +163,9 @@ main {
   font-size: 12px;
 
   img {
+    width: 227px;
+    height: 227px;
+    object-fit: cover;
     margin-bottom: 10px;
   }
 }
@@ -172,6 +175,7 @@ main {
   padding-top: 50px;
   display: block;
   text-align: center;
+  line-height: normal;
 }
 
 /*------------------footer-------------*/
@@ -182,7 +186,7 @@ main {
   bottom: 20px;
   left: 0;
   right: 0;
-  
+
     .f-menu {
       display: flex;
       font-size: 12px;
