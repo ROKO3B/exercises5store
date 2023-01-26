@@ -35,7 +35,7 @@ li {
 }
 
 .content {
-  padding-top: 120px;
+  padding-top: 45px;
   padding-bottom: 50px;
 }
 
@@ -162,13 +162,17 @@ main {
   line-height: normal;
 }
 
-.content {
+.p-title {
+  margin-bottom: 30px;
+}
+
+.grid {
   display: grid;
   gap: 26px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   font-size: 12px;
 }
-.content img {
+.grid img {
   width: 227px;
   height: 227px;
   -o-object-fit: cover;

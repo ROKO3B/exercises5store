@@ -31,7 +31,7 @@ li {
 
 }
 .content {
-  padding-top: 120px;
+  padding-top: 45px;
   padding-bottom: 50px;
 }
 .site-title a {
@@ -178,7 +178,11 @@ main {
   line-height: normal;
 }
 
-.content {
+.p-title {
+  margin-bottom: 30px;
+}
+
+.grid {
   display: grid;
   gap: 26px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
