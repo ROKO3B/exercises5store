@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 100%;
 }
@@ -227,6 +228,42 @@ main {
 }
 .company .location {
   filter: grayscale(1);
+}
+
+/*------------------products詳細-------------*/
+#item {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+#item .item-img {
+  width: 50%;
+}
+#item .item-img img {
+  width: 400px;
+  height: 400px;
+}
+#item .item-text {
+  width: 42%;
+}
+#item .item-text p {
+  margin-bottom: 30px;
+  text-align: justify;
+  line-height: normal;
+}
+#item .item-text dl {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: normal;
+}
+#item .item-text dl dt {
+  width: 30%;
+  font-weight: normal;
+}
+#item .item-text dl dd {
+  width: 70%;
 }
 
 /*------------------footer-------------*/
