@@ -132,4 +132,27 @@ li {
   opacity: 0.8;
   z-index: 10;
   cursor: pointer;
+}
+
+/*------------------top------------------*/
+main {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+#top {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 12px;
+}
+#top img {
+  margin-bottom: 10px;
+}
+
+.link-text {
+  width: 100%;
+  padding-top: 50px;
+  display: block;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
