@@ -189,6 +189,7 @@ main {
   padding-right: 20px;
 }
 
+/*-----------------about---------------*/
 .about {
   max-width: 600px;
 }
@@ -196,6 +197,36 @@ main {
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.9;
+}
+
+/*------------------company-------------*/
+.company {
+  max-width: 600px;
+}
+.company dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.company dl dt {
+  width: 30%;
+  padding: 20px 10px;
+  border-bottom: 1px solid #dcdbdb;
+  font-weight: normal;
+}
+.company dl dt:last-of-type {
+  border-bottom: none;
+}
+.company dl dd {
+  width: 70%;
+  padding: 20px 10px;
+  border-bottom: 1px solid #dcdbdb;
+}
+.company dl dd:last-of-type {
+  border-bottom: none;
+}
+.company .location {
+  filter: grayscale(1);
 }
 
 /*------------------footer-------------*/
