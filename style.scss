@@ -308,10 +308,11 @@ main {
 @media screen and (max-width: 900px){ 
   .grid {
     grid-template-columns: repeat(2, 1fr);
-
+    
     img {
       width: 100%;
-      
+      aspect-ratio: 1;
+      height: auto;
     }
   }
 
@@ -325,6 +326,7 @@ main {
           
             img {
               width: 764px;
+              aspect-ratio: 1;
               height:auto;
             }
         }

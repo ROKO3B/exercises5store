@@ -283,6 +283,8 @@ main {
   }
   .grid img {
     width: 100%;
+    aspect-ratio: 1;
+    height: auto;
   }
   #item {
     display: flex;
@@ -294,6 +296,7 @@ main {
   }
   #item .item-img img {
     width: 764px;
+    aspect-ratio: 1;
     height: auto;
   }
   #item .item-text {
