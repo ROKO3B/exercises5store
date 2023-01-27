@@ -144,7 +144,7 @@ main {
 #top {
   display: grid;
   gap: 26px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   font-size: 12px;
 }
 #top img {
@@ -170,7 +170,7 @@ main {
 .grid {
   display: grid;
   gap: 26px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   font-size: 12px;
 }
 .grid img {
@@ -284,4 +284,14 @@ main {
 }
 #footer p {
   font-size: 10px;
+}
+
+/*--------------------sp------------------*/
+@media screen and (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
