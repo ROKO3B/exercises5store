@@ -341,5 +341,12 @@ main {
           }
       }
     }
-    
+   #footer {
+    flex-direction: column;
+
+      .f-menu {
+        padding-bottom: 5px;
+      }
+   }
+  
 }

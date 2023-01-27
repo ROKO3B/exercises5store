@@ -304,4 +304,10 @@ main {
     border-bottom: none;
     padding-bottom: 5px;
   }
+  #footer {
+    flex-direction: column;
+  }
+  #footer .f-menu {
+    padding-bottom: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
