@@ -294,4 +294,28 @@ main {
   .grid img {
     width: 100%;
   }
+  #item {
+    display: flex;
+    flex-direction: column;
+  }
+  #item .item-img {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  #item .item-img img {
+    width: 764px;
+    height: auto;
+  }
+  #item .item-text {
+    width: 100%;
+  }
+  .company dl {
+    display: flex;
+    flex-direction: column;
+  }
+  .company dl dt {
+    width: 100%;
+    border-bottom: none;
+    padding-bottom: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */

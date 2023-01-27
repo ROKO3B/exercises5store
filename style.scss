@@ -323,4 +323,37 @@ main {
       
     }
   }
+
+    #item {
+      display: flex;
+      flex-direction: column;
+
+        .item-img {
+          margin-bottom: 30px;
+          width: 100%;
+          
+            img {
+              width: 764px;
+              height:auto;
+            }
+        }
+
+        .item-text {
+          width: 100%;
+        }
+    }
+
+    .company {
+      dl {
+        display: flex;
+        flex-direction: column;
+
+          dt {
+            width: 100%;
+            border-bottom: none;
+            padding-bottom: 5px;
+          }
+      }
+    }
+    
 }
