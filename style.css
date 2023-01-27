@@ -215,6 +215,10 @@ main {
 .company .location {
   filter: grayscale(1);
 }
+.company iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
 
 /*------------------products詳細-------------*/
 #item {

@@ -234,6 +234,11 @@ main {
   .location {
     filter: grayscale(1);
   }
+
+  iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
 }
 
 /*------------------products詳細-------------*/
