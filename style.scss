@@ -156,20 +156,6 @@ main {
   padding-bottom: 160px;
 }
 
-#top {
-  display: grid;
-  gap: 26px;
-  grid-template-columns: repeat(4, 1fr);
-  font-size: 12px;
-
-  img {
-    width: 227px;
-    height: 227px;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-}
-
 .link-text {
   width: 100%;
   padding-top: 50px;
